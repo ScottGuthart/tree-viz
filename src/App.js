@@ -30,6 +30,8 @@ function App() {
   };
   return !tree ? (
     <UploadButton
+      variant={"contained"}
+      size={"large"}
       onChange={uploadTree}
       id={"uploadTree"}
       title={"Upload Tree"}
