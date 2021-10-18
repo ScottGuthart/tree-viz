@@ -21,7 +21,7 @@ export default function UploadButton({
         onChange={onChange}
       />
       <label htmlFor={id}>
-        <Button variant={variant} color={color} component="span" size={size}>
+        <Button sx={{m: 2}} variant={variant} color={color} component="span" size={size}>
           {title}
         </Button>
       </label>
